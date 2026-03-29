@@ -1,5 +1,5 @@
 ### CS 22B Project - P1 Pure function and Try-Except
-### Group Name: <Team member names>
+### Group Name: Shannon Lo, Skye Gonigan, Noah McKenna, Anushree Bhattacharya
 
 ##### Project Assignment to Practice Try-Except Exceptions #####
 ## For this assignment, you will design and implement a small collection of 
