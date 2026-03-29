@@ -15,12 +15,6 @@
 ##### Function 1: A decision-making function using conditionals #####
 ## Write a Python function that takes input data and returns a transformed version.
 
-import pandas as pd
-df = pd.read_csv("CS22B_GAPDH_AA.csv")
-
-# Applying a function to filter humans
-human_rows = df[df["Organism"].apply(is_human)]
-print(human_rows)
 def is_human(organism):
     """
     Check if the organism is Homo sapiens (Human).
@@ -32,7 +26,7 @@ def is_human(organism):
     return organism == "Homo sapiens (Human)"
 
 # Test case
-assert is_human("Homo sapiens (Human)") == True 
+assert is_human("Homo sapiens (Human)") == True
 
 ##### Function 2: Re-write Exception Handling #####
 ## Write a Python function that uses if, elif, and/or else to classify or evaluate something.
